@@ -1,0 +1,62 @@
+#faq {
+  margin: 32px 0;
+  padding: 24px;
+}
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+  transition: 0.4s;
+  position: relative;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+button.accordion.active {
+  background: rgb(177, 72, 49);
+  color: #fff;
+}
+
+.accordion::after {
+  content: "\002B";
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active::after {
+  content: "\2212";
+  color: #fff;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  border-radius: 5px;
+}
+
+.panel p {
+  margin-top: 10px;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+button:focus {
+  outline: none;
+}
+
+.faq-sec {
+  width: 900px;
+  margin: 0 auto;
+}

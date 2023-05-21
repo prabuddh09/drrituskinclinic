@@ -1,0 +1,937 @@
+*{margin:0; padding:0;}
+body{background-color: #f5f3f3;}
+.our-services{width:100%; height:auto; margin-bottom:5px; padding: 20px;}
+.laser-img img{width:100%; }
+.acne-img img{width:100%;}
+.botox-img img{width:100%;}
+.our-services h2{text-align:center; font-family: 'Bree Serif', serif; color:#a22426; font-size:32px; margin-bottom:0px;}
+.our-services h2 span{color:#464444;}
+.our-services p{text-align:center; font-family: 'Bree Serif', serif; font-weight:500; line-height:1.7em; margin-bottom:0; font-size:16px;}
+
+.fancy {
+  line-height: 0.5;
+  text-align: center;
+}
+.fancy span {
+  display: inline-block;
+  position: relative;  
+}
+.fancy span:before,
+.fancy span:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 1px solid #de583a;
+  border-top: 1px solid #de583a;
+  top: 17px;
+  width: 56px;
+}
+.fancy span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+.fancy span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+.amp {
+  margin: 0 0 1.25em 0;
+}
+.amp span {
+  font-size: 0.7em;
+}
+.laser-hair-removal{background-color: #ed815ee6; padding:10px 0 0 10px;margin-bottom:30px;}
+.laser-desc{padding:20px;}
+.laser-desc h6{text-align:center; font-family: 'Bree Serif', serif; font-size:22px; color: #000000;}
+.laser-desc p{color:#1d1d1d; font-size:16px; font-weight:500; font-family: 'Lato', sans-serif; margin-bottom:10px;}
+
+.botox{background-color:#ed815ee6; padding:10px 10px 0 0;}
+.s-button{margin: 0 auto;display: block;padding:7px 18px;background-color: #ed815e;border: none;border-radius: 35px; font-family: 'Maven Pro', sans-serif; font-weight:500;font-size: 15px;  cursor:pointer; width:38%;}
+.s-button1{margin: 0 auto;display: block;padding:7px 18px;background-color: #fff;border: none;border-radius: 35px; font-family: 'Bree Serif', serif; font-weight:500; font-size: 15px; cursor:pointer; width:38%;}
+
+.about-us{width:100%; height:auto; background-color:#f3ccbf; padding: 50px 0 50px 0; background-image:url('../images/about-background.png'); background-position:top right; background-repeat:no-repeat; margin-bottom:25px;}
+.acne-surgery h6{color:#464545;}
+.acne-surgery p{color:#504e4e; font-size:16px; font-weight:300; font-family:'Lato', sans-serif;}
+.dr-ritu-picture img{width:100%;}
+.dr-ritu-description h2{color:#a22426; font-weight:100; font-size:32px; font-family: 'Bree Serif', serif;}
+.dr-ritu-description h6{font-size: 18px;font-weight: 100;color: #464241;border-bottom: 2px #af5744 dotted;padding-bottom: 12px; font-family: 'Bree Serif', serif;}
+.dr-ritu-description p{font-family:'Lato', sans-serif;font-size: 16px;color: #464646;text-align: justify;line-height: 1.7em;}
+.s-button2 {padding: 7px 18px;background-color: #ed815e;border: none;border-radius: 35px;font-family: 'Maven Pro', sans-serif;font-weight: 500;float:right; font-size:15px; cursor:pointer;}
+
+.dr-ritu-description{padding:40px 0;}
+.clinic-gallery{width:100%; height:auto; margin-bottom:20px; padding: 20px;}
+
+.clinic-gallery h2{text-align: center;font-family: 'Bree Serif', serif;color: #a22426;font-size: 32px;}
+.dr-ritu-clinic-gallery img{width:100%; margin-bottom:30px; background-color:#e8e8e8; padding:10px;}
+.patient-testimonials{width:100%; height:auto; margin-bottom:30px;  padding: 40px 0px 57px 0;}
+
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+
+.social {width: 100%;}
+.social h2 {
+	color: #fff;
+    font-size: 19px;
+    font-family: verdana;
+}
+.twitter{margin-left:0px;}
+
+[class^="icon-btn"] /*.icon-btn*/ {
+    height: 32px;
+    width: 32px;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 10px;
+    transition: ease-in-out .3s;
+    border-radius: 50px;
+    margin-left: 10px;
+    background-color: #e83f3a;
+    float:left;
+}
+.fa-youtube-play{color:#fff;}
+
+.twitter {
+	color: #4099FF;
+        padding: 9px 10px;
+}
+
+.facebook {
+	color: #3B5998;
+        padding: 9px 12px;
+}
+.google-plus {
+	color: #DB5A3C;
+        padding: 8px 8px;
+}
+
+.instagram {
+	color: #5C3D2E;
+        padding: 8px 10px;
+}
+
+.github {
+	color: #fff;
+        font-size:14px;
+        padding: 8px 10px;
+}
+
+.icon-btn:hover {
+	transform: scale(1.10);	
+	color: #FFFFFF;
+}
+
+
+.fa-twitter{
+    font-size: 15px!important;
+    color:#fff;
+}
+
+.fa-facebook{
+    font-size: 15px!important;
+    color:#fff;
+}
+
+.fa-google-plus{
+    font-size: 15px!important;
+    color:#fff;
+}
+
+.fa-instagram{
+    font-size: 15px!important;
+    color:#fff;
+}
+
+.fa-github{
+    font-size: 15px!important;
+    color:#fff;
+}
+
+
+.twitter {
+	background-color: #4099FF;
+        color:#fff;
+      }
+
+
+.facebook {
+	background-color: #3B5998;
+        color:#fff;
+       }
+
+.google-plus {
+	background-color: #DB5A3C;
+        color:#fff;	
+}
+
+.instagram {
+	background-color: #5C3D2E;
+        color:#fff;	
+}
+
+.github: {
+	background-color:#137bb8;
+        color:#fff;	
+}
+
+a.link {
+	color: inherit;	
+}
+
+
+.flickr-grid a img {
+    width: 100%;
+    padding: 0.3em;
+    border: 1px solid #ffffff;
+}
+
+
+.carousel .item {
+	color: #999;
+	overflow: hidden;
+    min-height: 120px;
+	font-size: 13px;
+}
+.carousel .media {
+	position: relative;
+	padding: 0 0 0 20px;
+}
+.carousel .media img {
+	width: 62px;
+	height: 62px;
+	display: block;
+	border-radius: 50%;
+}
+.carousel .testimonial-wrapper {
+	padding: 0 10px;
+	padding: 15px 10px;
+}
+.carousel .testimonial {
+    color:#565656;
+	position: relative;
+    padding: 45px 35px;
+    background: #ffffff;
+    border-radius: 3px;
+	margin-bottom: 15px;
+	font-size: 15px;
+	text-align: justify;
+}
+.carousel .testimonial::after {
+	content: "";
+	width: 15px;
+	height: 15px;
+	display: block;
+	background:#ffffff;
+	border: 1px solid #efefef;
+	border-width: 0 0 1px 1px;
+	position: absolute;
+	bottom: -8px;
+	left: 46px;
+	transform: rotateZ(-46deg);
+}
+
+.carousel .star-rating i {
+	font-size: 16px;
+    color: #a95407;
+}
+.carousel .overview {
+	padding: 3px 0 0 15px;
+}
+.carousel .overview .details {
+    padding: 2px 0 2px;
+    font-weight: 600;
+	font-size: 15px;
+	color: #ffffff;
+	}
+	
+.carousel .overview b {
+	text-transform: uppercase;
+    color: #000;
+        font-family: 'Bree Serif', serif;
+    font-size: 18px;
+    font-weight: 100;
+}
+.carousel .carousel-indicators {
+	bottom: -33px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+	width: 18px;
+    height: 18px;
+	border-radius: 50%;
+	margin: 1px 2px;
+}
+.carousel-indicators li {	
+    border: 4px solid #fff;
+	background: #a29f9e;
+	cursor:pointer;
+}
+.carousel-indicators li.active {
+	color: #fff;
+    background: #de583a;
+    border: 5px double;    
+}
+
+.patient-testimonials h2{text-align: center;font-family: 'Bree Serif', serif;color: #000;font-size: 32px;}
+
+.footer {width: 100%;background: #211f1f;padding: 30px;border-bottom: 1px #ffffff38 solid;}
+.footer h6 {color: #fff;font-size: 22px; font-family: 'Maven Pro', sans-serif;}
+.footer p {color: #e6ecf8;font-size: 14px;font-family: 'Nunito', sans-serif;line-height: 29px;letter-spacing: 1px;font-weight: 100;padding-bottom: 1px;margin-bottom: 10px;}
+.footer h2 {color: #fff;font-size: 15px;font-family: verdana;}
+.footer p a{color: #e6ecf8;font-size: 14px;font-family: 'Nunito', sans-serif;line-height: 28px;letter-spacing: 1px;font-weight: 100;padding-bottom: 1px;}
+.copy-right {width: 100%;height: auto;background: #211f1f;}
+.copy-right h2 {text-align:center; padding:15px; color:#e6ecf8;letter-spacing: 1px;font-family: 'Muli',sans-serif; margin:0px; font-size:13px;}
+.footer-nav {color: #fff;font-family: 'Muli',sans-serif;font-weight: 500;}
+
+.skin-blog{width:100%; height:auto; margin-bottom:24px;}
+.skin-blog h2{text-align:center; font-family: 'Bree Serif', serif; color:#a22426; font-size:32px; }
+
+.post-slide{
+    margin: 0 10px;
+}
+.post-slide .post-info{
+    padding: 5px 0;
+    margin: 0;
+    list-style: none;
+}
+.post-slide .post-info li{
+    display: inline-block;
+    margin: 0 5px;
+}
+.post-slide .post-info li i{
+    margin-right: 8px;
+}
+.post-slide .post-info li a{
+    font-size: 11px;
+    font-weight: bold;
+    color: #7e828a;
+    text-transform: uppercase;
+}
+.post-slide .post-info li a:hover{
+    color: #1dcfd1;
+    text-decoration: none;
+}
+.post-slide .post-img{
+    position: relative;
+}
+.post-slide .post-img:before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background: rgba(0, 0,0,0.6);
+    transition: opacity 0.40s linear 0s;
+}
+.post-slide:hover .post-img:before{
+    opacity: 1;
+}
+.post-slide .post-img img{
+    width: 100%;
+    height: auto;
+}
+.post-slide .read{
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    font-size: 14px;
+    color: #fff;
+    text-transform: capitalize;
+    opacity: 0;
+    transition: all 0.40s linear 0s;
+}
+.post-slide:hover .read{
+    opacity:1;
+}
+.post-slide .read:hover{
+    text-decoration: none;
+    color: #1dcfd1;
+}
+.post-slide .post-content{
+    padding: 40px 0;
+    position: relative;
+}
+.post-slide .post-author{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    position: absolute;
+    top: -45px;
+    right: 10px;
+    overflow: hidden;
+    border:4px solid #fff;
+}
+.post-slide .post-author img{
+    width: 100%;
+    height: auto;
+}
+.post-slide .post-title{
+    font-size: 14px;
+    font-weight: bold;
+    color: #1dcfd1;
+    margin: 0 0 10px 0;
+    text-transform: uppercase;
+    transition: all 0.30s linear 0s;
+}
+.post-slide .post-title:after{
+    content: "";
+    width: 25px;
+    display: block;
+    margin-top: 10px;
+    border-bottom: 4px solid #333;
+}
+.post-slide .post-description{
+    font-size: 15px;
+    color: #7b7878;
+    margin-bottom:20px;
+	font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    line-height: 1.7em;
+    text-align: justify;
+}
+
+.blog-info {
+    background: #f1f1f1;
+    padding: 30px 20px;
+    border: 1px solid #ddd;
+    border-radius: 0 0 3px 3px;
+    border-top: none;
+	box-shadow: 0px 5px #ee8c6d;
+}
+.grids5-info p {
+    font-size: 16px;
+    line-height: 25px;
+    color: var(--text-color);
+    margin-top: 15px;
+}
+.blog-list {
+    border-top: 2px dotted #ddd;
+    margin-top: 15px;
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+ul.blog-list li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.grids5-info ul.blog-list p {
+    margin: 0;
+    font-size: 15px;
+}
+
+.grids5-info p {font-size: 16px; line-height: 25px; color: var(--text-color); margin-top:15px; color:#585757;}
+.blog-img{width:100%;}
+.blog-info h4{font-family: 'Bree Serif', serif; font-size:22px;}
+.blog-info h4 a{color:#a22426;}
+
+.patient-testimonials{background-image:url('../images/testimonials.jpg'); background-size:cover; background-position:right; background-attachment:fixed;}
+
+.testimon span:before, .testimon span:after {
+    content: "";
+    height: 5px;
+    border-top: 1px solid #fff;
+	border-bottom:1px solid #fff;
+    top: 17px;
+    width: 56px;
+}
+
+.testimonial:before {
+    content: "\f10d";
+    font-family: "FontAwesome";
+    font-weight: 900;
+    position: absolute;
+    top: -23px;
+    font-size: 30px;
+    color: #de583a;
+	z-index:999;
+}
+
+.dr-ritu-clinic-gallery img:before {
+    content: "";
+    position: absolute;
+    background: url('../images/download.png') repeat-x;
+    height: 6px;
+    width: 100%;
+    left: 0;
+    bottom: -6px;
+}
+
+.footer p i{font-size:21px; background-color:#b14831; padding:8px 7px;}
+
+
+/* About us */
+.dr-ritu-about{width:100%; height:auto; margin-bottom:35px;}
+.dr-ritu-info{width:100%; height:auto; margin-bottom:30px;}
+
+#comparison {
+  width: 100%;
+  padding-bottom: 100%;
+  overflow: hidden;
+  position: relative;
+  }
+
+figure {
+  position: absolute;
+ 
+  background-size: cover;
+  font-size: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+     background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#divisor {
+  
+  background-size: cover;
+  position: absolute;
+  width: 50%;
+  box-shadow: 0 5px 10px -2px rgba(0, 0, 0, 0.3);
+  bottom: 0;
+  height: 100%;
+  
+}
+
+
+#divisor::before, #divisor::after {
+  content: '';
+  position: absolute;
+  right: -2px;
+  width: 4px;
+  height: calc(50% - 25px);
+  background: white;
+  z-index: 3;
+}
+#divisor::before {
+  top: 0;
+  box-shadow: 0 -3px 8px 1px rgba(0, 0, 0, 0.3);
+}
+#divisor::after {
+  bottom: 0;
+  box-shadow: 0 3px 8px 1px rgba(0, 0, 0, 0.3);
+}
+
+#handle {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+          transform: translateY(-50%) translateX(-50%);
+  z-index: 1;
+}
+#handle::before, #handle::after {
+  content: '';
+  width: 0;
+  height: 0;
+  border: 6px inset transparent;
+  position: absolute;
+  top: 50%;
+  margin-top: -6px;
+}
+#handle::before {
+  border-right: 6px solid white;
+  left: 50%;
+  margin-left: -17px;
+}
+#handle::after {
+  border-left: 6px solid white;
+  right: 50%;
+  margin-right: -17px;
+}
+
+
+
+
+input[type=range] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  position: absolute;
+  top: 50%;
+  left: -25px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  background-color: transparent;
+  width: calc(100% + 50px);
+  z-index: 2;
+}
+input[type=range]:focus, input[type=range]:active {
+  border: none;
+  outline: none;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: none;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: transparent;
+  border: 4px solid white;
+  box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.3);
+}
+
+input[type=range]::-moz-range-track {
+  -moz-appearance: none;
+  height: 15px;
+  width: 100%;
+  background-color: transparent;
+  position: relative;
+  outline: none;
+}
+
+.about-des h2{font-size: 50px;font-weight: 600;margin-bottom: 8px; color: #656565; font-family: 'Bree Serif', serif;}
+.about-des h2 span {display: block;color: #9c5657;font-size: 40px;}
+.about-des h6 {font-size: 40px;font-family: 'Bree Serif', serif;}
+.about-des p{text-align:justify; font-size:16px; font-weight:500; color:#525050; line-height:1.7em; margin-bottom:10px;}
+.dr-ritu-info h6 span{display:block; color:#9c5657;}
+.about-counter{width: 100%;height: auto;background-color: #e2b3b4;padding: 50px;}
+.counter-box {
+	display: block;
+    background: #8c4b4c;
+    text-align: center;
+    padding: 40px; 
+   -webkit-box-shadow: 0px 3px 4px 0px rgba(58, 22, 23);
+    -moz-box-shadow: 0px 3px 4px 0px rgba(58, 22, 23);
+    box-shadow: 0px 3px 4px 0px rgb(58, 22, 23);
+}
+
+.counter-box p {margin: 5px 0 0;padding: 0;color: #ffffff;font-size: 18px;font-family: 'Bree Serif', serif;}
+.counter-box i {font-size: 48px;margin: 0 0 15px;color: #ffffff;}
+.counter {display: block;font-size: 32px;font-weight: 700;color: #fff;line-height: 28px}
+.counter-box.colored {
+    background: #8c4b4c;
+    padding: 40px;
+    -webkit-box-shadow: 0px 3px 4px 0px rgba(58, 22, 23);
+    -moz-box-shadow: 0px 3px 4px 0px rgba(58, 22, 23);
+    box-shadow: 0px 3px 4px 0px rgb(58, 22, 23);
+}
+.counter-box.colored p,
+.counter-box.colored i,
+.counter-box.colored .counter {
+    color: #fff
+}
+
+header{background-color:#fff;}
+.counter1::after {content: '%';}
+.about-counter h2{text-align:center; font-family:'Maven Pro', sans-serif; color:#fff; font-size:32px; margin-bottom:0px;}
+.about-counter span:after, span:before{border-bottom: 1px solid #fff;border-top: 1px solid #fff;}
+.about-counter .fancy{margin-bottom:25px;}
+.about-h{font-weight:bolder; color:#9c5657; font-size:18px;}
+
+/* Contact us */
+.contact-us{width:100%; height:auto; margin-bottom:40px;}
+.dr-clinic-address{width:100%; height:auto; margin-bottom: 40px;}
+.contact-field input {
+   width: 100%;
+    margin-bottom: 28px;
+    min-height: 0px;
+    padding: 8px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    color: #6b6b6b;
+}
+.contact-field textarea {
+    width: 100%;
+    margin-bottom: 28px;
+    padding: 8px;
+    font-family: 'Nunito', sans-serif;
+    border: 1px solid #c7bebe;
+    color: #6b6b6b;
+}
+
+.about-read {
+    background-color: #9c5657;
+    border: none;
+    padding: 9px 20px;
+    color: #fff;
+    font-family: 'Bree Serif', serif;
+    border-radius: 5px;
+    margin: 0 auto;
+    display: block;
+	cursor:pointer;
+}
+
+.about-read:hover{background-color:#943638;}
+.contact-ad p {
+    margin-bottom: 0px;
+    padding: 10px;
+    color: #5a5a5a;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.address-map iframe{-webkit-box-shadow: -1px 0px 5px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 0px 5px -1px rgba(0,0,0,0.75);
+    box-shadow: -1px 0px 5px -1px rgba0,0,0,0.75);}
+	
+.google-map{margin-bottom:30px;}
+.contact-ad h2{text-align: left;font-family: 'Bree Serif', serif;color: #a22426;font-size: 24px;margin-bottom: 0px;}
+.contact-ad p i{font-size: 17px;color: #cc6130;}
+.dr-clinic-address h2{text-align: center;font-family: 'Bree Serif', serif;color: #a22426;font-size: 32px;margin-bottom: 0px;}
+.dr-ritu-ct{border: 1px #807d7d solid;
+    padding: 15px 15px 7px 22px;
+    margin-bottom: 12px; border-radius:10px;}
+.dr-ritu-ct h2{text-align:left; color:#484848; font-size:22px;}
+.google-map h2{text-align: center;font-family: 'Bree Serif', serif;color: #a22426;font-size: 32px;margin-bottom: 0px;}
+
+.case-before-after{margin-bottom:45px;}
+.case-before-after h2{text-align: center;font-family: 'Bree Serif', serif;color: #a22426;font-size: 32px;margin-bottom: 0px;}
+#What1{background-color: #ffffff; margin-bottom: 20px;}
+#Drugs1{background-color: #fdfdfd; margin-bottom: 20px;}
+#Something1{background-color: #fdfdfd; margin-bottom: 20px;}
+#Best1{background-color: #fdfdfd; margin-bottom: 20px;}
+.blog_page {border-top: 0px solid #4897d0;overflow: hidden;-webkit-box-shadow: 0px 1px 6px 0px rgb(189, 189, 189);-moz-box-shadow: 0px 1px 6px 0px rgb(189, 189, 189);box-shadow: 0px 1px 6px 0px rgb(189, 189, 189);}
+.content1 {position: relative;display: block;padding-bottom: 2px;}
+.blog_page img {width: 100%;}
+.blog_date {background: rgba(0, 0, 0, 0.51);padding: 1em 2.5em;position: absolute;top: 0px;left: 0px;text-align: center;-webkit-transition: .5s all;-moz-transition: .5s all;transition: .5s all;}
+.blog_date p {text-transform: uppercase;font-weight: 600;color: #fff;}
+
+.blog_date p span {
+  display: block;
+  font-size: 2.5em;
+  line-height: 1;
+  font-weight: 200;
+  color: #ffffff;
+}
+.blog_page:hover .blog_date {
+  left: -50%;
+}
+.blog_content {padding: 2em;}
+.blog_content h5 {font-family: 'Bree Serif', serif;color: #a22426;}
+.blog_content h5 a{color: #2d2d2d;font-family: 'Bree Serif', serif;font-size: 18px;}
+.blog_content p{font-family: 'Nunito', sans-serif; font-size:15px; line-height:1.7em; text-align:justify; color:#7d7474;}
+.readmore {font-size: 15px;text-align: right;display: block;color: #000;font-family: 'Bree Serif', serif;cursor: pointer;}
+.blog{margin-bottom:40px;}
+.blog h2{text-align: center;font-family: 'Bree Serif', serif;color: #a22426;font-size: 32px;margin-bottom: 0px;}
+.single_social h2{text-align: left;font-family: 'Bree Serif', serif;color: #a22426;font-size: 28px;}
+.skin-page-blog img{width:100%;     margin-bottom: 16px;}
+.skin-page-blog p{font-family:'Nunito', sans-serif; font-size:16px; text-align:justify; line-height:1.7em; color: #6f6c6c;  margin-bottom: 6px;}
+.about_admin{margin-bottom:30px;}
+.admin_content {padding: 2em;width: 100%;-webkit-box-shadow: 0px 0px 3px 1px #999;-moz-box-shadow: 0px 0px 3px 1px #999;box-shadow: 0px 0px 3px 1px #999;height: auto;}
+.admin_left {float: left;width: 100%;}
+.admin_left img{width:100%;}
+.admin_right h4 a{color: #2d2d2d;font-family: 'Bree Serif', serif;font-size: 20px;}
+.single_header h2{font-family: 'Bree Serif', serif;color: #a22426;font-size: 26px; margin-bottom:25px;}
+.content2{font-family: 'Nunito', sans-serif;font-size: 15px;line-height: 1.7em;text-align: justify;color: #7d7474;}
+
+.about_contact {width: 100%;height: auto;margin-bottom: 60px;}
+.about_contact input[type="text"], .about_contact input[type="email"], .about_contact textarea {
+    outline: none;
+    width: 100%;
+    padding: 11px 12px 10px 16px;
+    border: 1px solid #DBDBDB;
+    font-size: 1em;
+    color: #999;
+    -webkit-appearance: none;
+    margin-bottom: 20px;
+	background: #ffffffe0;
+}
+
+.about_contact textarea {
+    outline: none;
+    width: 100%;
+    background: #fff;
+    padding: 21px;
+    border: 1px solid #DBDBDB;
+    font-size: 1em;
+    color: #999;
+    -webkit-appearance: none;
+    height: 200px;
+}
+
+#player_3{width:100%; height:300px;}
+
+.before-after-p{width:100%; height:auto;}
+.skin-treat{text-align:left; font-size:28px; font-family: 'Bree Serif', serif;}
+.skin-treat:after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    border-bottom: 1px solid #de583a;
+    border-top: 1px solid #de583a;
+    top: 17px;
+    width: 56px;
+}
+
+
+.dermaroller-treatment{width:100%; height:auto; margin-bottom:35px;}
+.dermaroller-img{margin-bottom:20px;}
+.dermaroller-img img{width:100%;}
+
+.dermaroller-des h6{
+    text-align: left;
+    font-family: 'Bree Serif', serif;
+    color: #a22426;
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+.dermaroller-des p{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #464646;
+    text-align: justify;
+    line-height: 1.7em;
+}
+
+
+/*Inquiry Form*/
+.quickform {background: #df583a; padding:30px 25px; margin-bottom:22px;}
+.quickform h2 { text-transform:uppercase; color:#FFF; margin:15px 0px; font-family:'Bree Serif', serif; font-size:24px;}
+
+.quickform input { width:100%; height:auto; float:left; border:1px solid #fff; padding:6px 5px; color:#999; background:none; margin:0px 0px 20px 0px;     background-color: #fff;}
+.quickform textarea { width:100%; height:auto; float:left; border:1px solid #fff; padding:8px 5px; color:#999; background:none; margin:0px 0px 20px 0px; resize:none; background-color:#fff;}
+
+.quickform button { 
+    background: #f9ad7c;
+    color: #000;
+    padding: 10px 29px;
+    border: 1px solid #f5995e;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #1b1b1b;
+    font-weight: 900;
+    border-radius: 40px;
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+    font-family: 'Bree Serif', serif;
+	}
+	
+	
+.quickform button:hover { background:#f9ad7c; color:#000;}
+
+.quickform input[type="text"]:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+} 
+
+.quickform textarea[type="text"]:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+} 
+
+
+.quickform textarea:focus {
+        border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+.Benifits{
+    border-bottom: 1px solid #ededed;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 14px;
+    line-height: 2;
+    margin: 0 0 20px;
+    width: 100%;
+}
+
+.Benifits tr td {border-top: 1px solid #ededed; padding: 6px 10px 6px 0; font-size: 16px;}
+.laser-treatment{background-image:url('../images/services-treatment.jpg'); background-size:cover; padding:123px; margin-bottom:45px;}
+.laser-treatment1{background-image:url('../images/laser-treatment.jpg'); background-size:cover; padding:123px; margin-bottom:45px;}
+.laser-treatment h2{font-size: 48px;font-weight: 900;color: #ffff; text-shadow: 2px 2px #000000;}
+.laser-treatment1 h2{font-size: 48px;font-weight: 900;color: #ffff; text-shadow: 2px 2px #000000;}
+.content h2{padding: 0 0 0 16px;}
+.content h2 span{display:block; font-size:32px; padding-left: 25px;}
+.contact-us img{width:100%;}
+.case-photos img{width:100%; margin-bottom:20px;}
+.video-gallery h2{text-align: center;font-family: 'Bree Serif', serif;color: #a22426;font-size: 32px;margin-bottom: 0px;}
+.video-banner{margin-bottom:30px;}
+.video-gallery{margin-bottom:30px;}
+.blogs img{width:100%;}
+.dr-ritu-vdo{margin-bottom:28px;}
+.video-banner img{width:100%;}
+.dr-ritu-info img{width: 100%;border: 2px #dcc0c0 solid;padding: 3px;}
+.dr-ritu-about img{width:100%; margin-bottom:18px;}
+.before-after{background-color: #e8e1e1;padding: 5px;}
+.before-after img{width:100%;}
+
+.blog-page-des{margin-bottom:25px;}
+
+.patient-testimonials video{background-color:#000; outline: none; width:100%; height:330px;}
+.sitemap-skin-ad iframe{border:0; width:100%; height:250px;}
+
+
+@media only screen and (max-width: 480px) {
+  #What1{margin-bottom: 25px;}
+  #Drugs1{margin-bottom: 25px;}
+  #Something1{margin-bottom: 0px;}
+ .skin-blog{padding: 0px 15px 15px;}
+ .patient-testimonials{margin-bottom: 7px;}
+ .carousel-caption{display:none;}
+ .contactContainer{display:none;}
+ .carousel .carousel-indicators{bottom:-54px;}
+ .botox{margin-bottom:20px;}
+ .s-button1{width:45%; padding:9px 15px; text-align: center;}
+ .s-button{width:45%; padding:9px 15px; text-align: center;}
+ .about-us{padding:20px; margin-bottom: 8px;}
+ .dr-ritu-description{padding:22px 0;}
+ .dr-ritu-description h2{font-size:26px;}
+ .dr-ritu-clinic-gallery img{margin-bottom: 20px;}
+ .clinic-gallery{margin-bottom:0px;}
+ .about-counter{padding:30px;}
+ .four{margin-bottom: 20px;} 
+ .about-des h2{font-size: 24px;}
+ .about-des h2 span{font-size: 24px;}
+ .dr-ritu-info h6 span{ font-size: 18px;}
+ .about-des h6{; font-size: 24px;}
+.dr-ritu-info img{margin-bottom: 20px;}
+.dr-ritu-info{padding: 0 12px 0 12px;}
+.dr-ritu-about{margin-bottom:0;}
+.dermaroller-treatment{padding:0 15px 0 15px}
+
+.laser-treatment{background-size:100%;background-repeat: no-repeat;}
+.laser-treatment{padding:28px; margin-bottom:30px;}
+.laser-treatment h2{font-size:28px;}
+.content h2 span{font-size:28px;}
+
+
+.laser-treatment1{background-size:100%;background-repeat: no-repeat;}
+.laser-treatment1{padding:28px; margin-bottom:30px;}
+.laser-treatment1 h2{font-size:28px;}
+.content h2 span{font-size:28px;}
+#jssor_1{width:330px!important}
+.blog{padding:15px; margin-bottom:0px;}
+#Something2{margin-bottom:25px;}
+.skin-page-blog{padding: 15px 15px 0;}
+.skin-page-blog img{margin-bottom:25px;}
+.about_admin{padding:15px;}
+.admin_left img{margin-bottom:12px;}
+.social{margin-bottom:60px;}
+.dr-clinic-address{padding:15px; margin-bottom:0px;}
+.contact-us{margin-bottom:10px;}
+.google-map{padding:15px;}
+.address-map{margin-bottom: 20px;}
+.dr-ritu-ct{margin-bottom:24px;}
+.contact-field input{margin-bottom:15px;}
+.google-map{margin-bottom:0px;}
+.d-inline-block{margin-bottom:0px;}
+.case-photos img{height:130px;}
+.contact-us img{height:130px;}
+.blogs img{height:130px;}
+.blog-page-des{margin-bottom:0;}
+.blog-page-des img{width:100%; height:130px;}
+.dr-ritu-clinic-gl img{height:130px;}
+.laser-treatment{background-size: 100% 130px;}
+.laser-treatment1{background-size: 100% 130px;}
+.dr-ritu-about img{height:130px;}
+}
+
+@media(min-width: 1000px){
+    .google-map .col-md-6 {
+        max-width: 33% !important;
+    }
+}

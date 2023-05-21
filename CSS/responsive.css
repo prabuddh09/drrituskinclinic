@@ -1,0 +1,1525 @@
+/* Smartphones (portrait and landscape) ----------- */
+
+@media (min-width: 1600px) {
+  .customContainer {
+    max-width: 1365px !important;
+    margin: 0 auto !important;
+}
+p,a{font-size: 17px !important; 
+}
+
+.aboutdata  {    
+  margin-top: 40px;
+}
+
+.procedureContainer {
+    text-align: center;
+    min-height: 387px;
+}
+
+.surgeryDescription, .ProcessDescription p {
+    color: #333;
+    font-size: 15px;
+}
+
+.testimoinalBodyAesthetix .slider {
+    width: 1500px;    margin: 20px 30px;
+}
+.slide.slick-slide.slick-active.slick-center .clientDescription .clientName::after {
+
+    left: 27px;
+}
+
+.slider .slide.slick-center .child-element {
+    /* background: rebeccapurple; */
+    -webkit-transform: translate(-120px, 0px);
+    transform: translate(-169px, 0px);
+    width: calc(100% + 140px);
+    max-width: initial;
+}
+/*.social-media-links{    margin-left: 216px}*/
+.dateFormat {
+    width: 145px;
+}
+.timeFormat {
+    width: 108px;
+}
+
+.dateimg {
+    background-position: 111px 7px;
+}
+
+.timeimg {    background-position: 77px 9px;}
+
+}
+
+
+
+
+@media (max-width: 767px){
+
+.desktopTop{display: none;}
+.top-header{display: block;}
+
+.bg-secondary {
+   background: #ef8c6d!important; color:#a22426 !important; font-size:14px;
+}
+
+.appointmentbutton-mobile {
+    background: #a22426;
+    border-radius: 33px;
+}
+.socialico{display: none;}
+
+.navbar-default{    padding-top: 10px !important;
+    padding-bottom: 10px !important;}
+.bE-I {
+    margin-top:0px !important;
+}
+.aboutdata {
+    margin-right: auto !important;
+}
+
+.procesureHeading {
+    margin-bottom: 30px;
+    margin-top: 25px;
+}
+
+.mr-b .skinpolishingmr,.li-mr,.sfl-t ,.mr-R-t ,.mr-tt,.mr-fgs,.mr-mg,.hr-p 
+ {
+    margin-top: 0px;
+}
+
+
+
+}
+
+@media only screen and (max-width: 480px)  {
+.carousel-item {
+  height: 50vh;
+  min-height: 280px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+    left: 0;
+    z-index: 10;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    background: #de583a;
+    width: 100%;
+    border-top: 7px solid #a22426;
+}
+
+.display-4.main-heading {
+    font-size: 23px;
+    color: #fff;
+    margin: 18px 0px;
+}
+
+.lead.subtitleinfo{    color: #ffffff;    font-size: 15px;}
+
+.mobileBanner{display: block;}
+
+.MainBanner{display: none;}
+
+.careerHeading {
+    font-size: 20px !important;
+    padding: 10px !important;
+}
+
+.od1 {
+    order: 2;
+}
+.od2 {
+    order: 1;
+}
+.bE-I {
+    margin-top:0px !important;
+}
+.process {
+    margin-top: 0px;
+}
+
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+/* Styles */
+.logo {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.aboutdata{margin-right: 0px;}
+.ContactBodyAesthetix{padding: 0px 0px;padding-left: 25px;}
+.ContactBodyAesthetix li{margin-bottom: 10px;}
+#menu-trigger{display: inline-block;    margin-left: 80px;}
+.NavigationRow{
+    order: 2;
+}
+.rowSocialIcon{
+    order: 1;
+}
+
+.appointmentForm {
+    margin-top: -23px;
+}
+
+.box {
+    padding-left: 15px;
+}
+.appointmentHeading h4{font-size: 25px;}
+
+.timeFormat {
+    width: 125px;
+}
+
+.dateFormat {
+    width: 125px;
+}
+
+.timeimg{background-position: 90px 9px;}
+
+.MainHeading{    font-size: 42px;}
+.BodyAesthetixAboutHeading{    padding-bottom: 20px;}
+.ReadMoreBodyAesthetix .appointmentbuttonSubmit {
+    width: 100%;
+    padding: 6px 3px;
+}
+
+.DoctorsBodyAesthetix .block-text{width: 100%;}
+.DoctorsBodyAesthetix .block-media {
+  display: none !important;
+}
+
+.DoctorsBodyAesthetix .carousel-text {
+    padding: 0px;
+    padding-left: 0px;
+}
+.block-text .slick-slider {
+    margin-bottom: 30px;
+    margin-right: 0px;
+}
+
+.doctorDescriptionImg {
+    width: 100%;
+}
+.DescriptionContent {
+    width: 100%;
+margin-bottom: 25px;
+}
+.DocFullInfo {
+    font-size: 15px;
+}
+.readMoreButton {
+    width: 100%;
+}
+#menu-wrap {
+    margin-left: 67px;
+}
+#menu{    right: 0;
+    width: 280px;    background-color: #a22426;}
+#menu ul.dropdownmenu{    width: 245px;}
+#menu a {
+    color: #fff;
+}
+.slider .slide .child-element .desc {
+    display: block;
+    padding: 10px 10px;
+}
+.slider .slide .child-element {
+    height: 300px;
+    width: 330px;
+}
+.slide.slick-slide.slick-active .clientDescription .clientName::after {
+    position: absolute;
+    content: "";
+    border-bottom: 7px solid #dc583a;
+    width: 230px;
+    left: 52px;
+    top: 170px;
+}
+.meetTeam{    font-size: 1.5em;}
+.cosmetics-surgery .meetTeam {
+    color: #fff;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.footersoicalIcon ul {
+    list-style: none;
+    text-align: center;    padding-left: 0px;
+}
+
+.postFooter {text-align: center !important;}
+
+
+.social-media-links {
+    list-style: none;
+    text-align: center;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+
+.mobileviewNumber {
+    display: inline-block;
+    vertical-align: middle;
+
+}
+#menu-wrap {
+    margin-left: 0px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.navigationbar{padding:10px 0px; }
+
+.FlowerIMg::after{display: none;}
+
+.footerConstant {
+    position: relative;
+    margin-bottom: 90px;
+}
+
+.footerConstant::after{top: 510px;}
+
+.mobileviewNav {
+    width: 100%;
+    margin: 0px 10px;
+}
+
+.mobileviewsocial {
+    display: block;
+    width: 100%;
+}
+
+ul.CosmeticsProcedure li a,span.footerData{font-size: 18px;}
+.footerBookAppointment .appointmentbuttonSubmit{margin-bottom: 25px;}
+.facility-heading::after{left: 147px;}
+
+
+.cosmetic-Process .MainHeading {
+    font-size: 20px;
+}
+.process-derma {
+    margin-top: 80px;
+}
+
+.row.secondpara {
+    margin-top: 0px;
+}
+
+.od2 {
+    order: 1;
+}
+
+.od1 {order: 2;}
+
+.secondpara .aboutdata{   margin-left: 0px;margin-top: 35px;}
+.bE-I {
+    margin-top: 0px;
+}
+.pddingMb{margin-top: 105px;}
+
+.pddingMb.footerConstant::after {
+    top: 578px;
+}
+
+.findUS .para {
+    padding: 10px;
+}
+.carrerFormWrapper {
+    margin: 0px 0px;
+  
+}
+
+#file{    display: inline-block;
+    width: 235px;}
+
+
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
+
+.logo {
+    width: 70%;
+    margin: 0 auto;
+}
+#menu-trigger {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.BodyAesthetixContactBox li {
+    padding: 12px 15px 12px 30px;
+}
+.BodyAesthetixContactBox span.callUs{    margin-right: 9px;}
+
+span.callUsContent a{font-size: 15px;}
+.dateFormat,.timeFormat {
+    width: 100%;
+}
+
+.dateimg {background-position: 187px 7px;}
+.timeimg {
+    background-position: 188px 9px;
+}
+.MainHeading {
+    font-size: 32px;
+}
+.cosmetics-surgery {
+    position: relative;
+    margin-bottom: 0px;
+}
+
+.slider .slide .child-element {
+    height: 300px;
+    width: 280px;
+}
+
+.slide.slick-slide.slick-active .clientDescription .clientName::after{    left: 22px;}
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+/* Styles */
+.navbar-default.navbar-trans .nav-item, .navbar-default.navbar-reduce .nav-item {
+    margin-left: 3px;
+}
+
+.BodyAesthetixContactBox span.callUs{margin-right: 0;}
+.BodyAesthetixContactBox li {
+    padding: 12px 15px 12px 16px;
+}
+.timeFormat {
+    display: inline-block;
+    width: 60px;
+}
+.dateFormat {
+    display: inline-block;
+    width: 110px;
+    margin-right: 0px;
+}
+
+.aboutdata{    margin-top: -9px;}
+.doctorDescriptionImg{    width: 220px;}
+.readMoreButton {
+    width: 100%;
+}
+.slider .slide .child-element{display: none;}
+.slider .slide.slick-center .child-element{display: block;    transform: translate(-210px, 0px);}
+.testimoinalBodyAesthetix .slick-dots{left: -120px;}
+
+span.footericon {
+    display: inline-block;
+    vertical-align: top;
+     width: 20px; 
+    color: #fff;
+    font-size: 13px;
+}
+span.footerData {
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    width: 171px;
+}
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* Styles */
+
+
+.BodyAesthetixContactBox span.callUs {
+    margin-right: 0;
+    margin: 0 auto;
+    display: block;
+}
+
+span.callUsContent a {
+    font-size: 15px;
+}
+span.callUsContent{text-align: center;display: block;}
+.BodyAesthetixContactBox li {
+    padding: 12px 15px 12px 16px;
+}
+.timeFormat {
+    display: inline-block;
+    width: 48px;
+}
+.dateFormat {
+    display: inline-block;
+    width: 70px;
+    margin-right: 0px;
+}
+.aboutdata{    margin-top: -40px;}
+.doctorDescriptionImg{        width: 190px;}
+.DescriptionContent {
+    width: 122px;
+}
+.readMoreButton {
+    width: 100%;
+}
+.slider .slide .child-element{display: none;}
+.slider .slide.slick-center .child-element{display: block;    transform: translate(-330px, 0px);}
+.testimoinalBodyAesthetix .slick-dots{left: -270px;}
+.docpic {
+    width: 150px;
+    margin: 0 auto;
+}
+.footerLogo {
+    width: 172px;
+    padding-bottom: 30px;
+}
+
+span.footerData {
+    display: inline-block;
+    /* width: 86%; */
+    color: #fff;
+    font-size: 14px;
+    width: 170px;
+}
+
+}
+
+
+
+/**********
+iPad 3
+**********/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+
+ul.cont{    padding-left: inherit;}
+.footerConstant  .BodyAesthetixContactBox span.callUs{margin: 0 auto;}
+span.footerData {
+    width: 188px;
+}
+
+.secondpara .aboutdata {
+    margin-right: 0px;
+    margin-left: -26px;
+    margin-top: 11px;
+}
+
+.footerConstant::after {
+    top: 149px;
+}
+
+.cosmeticFooter .appointmentForm {
+    margin-top: 90px;
+}
+
+.dateFormat {
+    width: 110px;
+}
+.dateimg,.timeimg {
+    background-position: right;
+}
+
+.timeFormat {
+    display: inline-block;
+    width: 80px;
+}
+
+}
+
+
+/**********
+iPad Pro
+**********/
+
+/* Landscape*/
+
+    @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: landscape)  {}
+
+    /* Portrait*/
+    @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait)  {
+
+.navbar-default.navbar-trans .nav-item, .navbar-default.navbar-reduce .nav-item {
+    margin-left: 3px;
+}
+.timeFormat {
+    display: inline-block;
+    width: 48px;
+}
+.dateFormat {
+    display: inline-block;
+    width: 122px;
+    margin-right: 0px;
+}
+
+.slider .slide.slick-center .child-element {
+    display: block;
+    transform: translate(-200px, 0px);
+}
+.testimoinalBodyAesthetix .slick-dots {
+    left: -130px;
+}
+
+
+.footerConstant::after {
+    top: 201px;
+}
+
+.cosmeticFooter .appointmentForm {
+    margin-top: 0px;
+}
+
+.dateFormat {
+    width: 95px;
+}
+.dateimg,.timeimg {
+    background-position: right;
+}
+
+.timeFormat {
+    display: inline-block;
+    width: 76px;
+}
+
+.innerpagePadding {
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+.BodyAesthetixAppointmentBox{    margin-top: 54px;}
+
+
+    }
+
+
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+/* iPhone 5 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+
+#file{    display: inline-block;
+    width: 235px;}
+.dateFormat {
+    width: 261px;
+    margin-right: 0px;
+}
+.dateimg,.timeimg{background-position: right;}
+
+.timeFormat {
+    width: 206px;
+}
+
+
+
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+
+.Address {
+    margin: 0px 0px;
+}
+.ContactUs {
+    padding: 0px 0px;
+    position: relative;
+}
+
+.footerConstant .appointmentForm {
+    margin-top: 20px;
+}
+
+.footerConstant::after {
+    top: 579px;
+}
+
+}
+
+/* iPhone 6, 7, 8 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* iPhone 6+, 7+, 8+ ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* iPhone X ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+/* iPhone XS Max, XR ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+/* Samsung Galaxy S3 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* Samsung Galaxy S4 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+/* Samsung Galaxy S5 ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+
+@media only screen and (min-device-width : 481px) and (max-device-width : 568px){
+.mobileviewNav {
+    width: 100%;
+    margin: 0px 10px;
+}
+
+.mobileviewsocial {
+    display: block;
+    width: 100%;
+}
+
+ul.CosmeticsProcedure li a,span.footerData{font-size: 18px;}
+.footerBookAppointment .appointmentbuttonSubmit{margin-bottom: 25px;}
+.facility-heading::after{left: 147px;}
+
+
+.cosmetic-Process .MainHeading {
+    font-size: 20px;
+}
+.process-derma {
+    margin-top: 80px;
+}
+
+.row.secondpara {
+    margin-top: 0px;
+}
+
+.od2 {
+    order: 1;
+}
+
+.od1 {order: 2;}
+
+.secondpara .aboutdata{   margin-left: 0px;margin-top: 35px;}
+.bE-I {
+    margin-top: 0px;
+}
+.pddingMb{margin-top: 105px;}
+
+.pddingMb.footerConstant::after {
+    top: 578px;
+}
+
+.BodyAesthetixContactBox {
+    list-style: none;
+    padding-left: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    /* margin-left: 25px; */
+    background: #de583a;
+    border-top: 8px solid #a22426;
+    display: flex;
+    justify-content: space-evenly;
+}
+span.callUsContent {
+    display: inline-block;
+    vertical-align: middle;
+}
+.BodyAesthetixContactBox span.callUs {
+    display: inline-block;
+    background-color: #fff;
+    height: 50px;
+    width: 50px;
+    border-radius: 55px;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+.SurgeryWrapper {
+    min-height: 300px;
+}
+
+.BodyAesthetixContactBox {
+    display: flex;
+    justify-content: space-around;
+}
+
+.aboutimg{display: none;}
+
+.mobileopen {
+    display: block;
+    width: 40%;
+    margin-right: 232px;
+}
+
+.facility-heading::after {
+        left: 100px;
+}
+
+.facility {
+  
+    margin: 10px 0px;
+}
+
+.BodyAesthetixContactBox {
+    display: flex;
+    justify-content: space-around;
+}
+.BodyAesthetixContactBox li {
+    padding: 2px;
+    text-align: left;
+}
+.BodyAesthetixContactBox span.callUs{    margin-right: 0px;}
+
+.mobileopen {
+    display: block;
+    width: 40%;
+    margin-right: 232px;
+}
+
+span.footericon {
+    width: auto;
+    font-size: 13px;
+}
+
+#file{    display: inline-block;
+    width: 235px;}
+.dateFormat {
+    width: 261px;
+    margin-right: 0px;
+}
+.dateimg,.timeimg{background-position: right;}
+
+.timeFormat {
+    width: 206px;
+}
+
+}
+
+
+@media only screen and (min-device-width : 482px) and (max-device-width : 667px){
+/* Styles */
+.logo {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.aboutdata{margin-right: 0px;}
+.ContactBodyAesthetix{padding: 0px 0px;padding-left: 25px;}
+.ContactBodyAesthetix li{margin-bottom: 10px;}
+#menu-trigger{display: inline-block;    margin-left: 80px;}
+.NavigationRow{
+    order: 2;
+}
+.rowSocialIcon{
+    order: 1;
+}
+
+.appointmentForm {
+    margin-top: 30px;
+}
+
+.box {
+    padding-left: 15px;
+}
+.appointmentHeading h4{font-size: 25px;}
+
+
+
+.MainHeading{    font-size: 42px;}
+.BodyAesthetixAboutHeading{    padding-bottom: 20px;}
+.ReadMoreBodyAesthetix .appointmentbuttonSubmit {
+    width: 100%;
+    padding: 6px 3px;
+}
+
+.DoctorsBodyAesthetix .block-text{width: 100%;}
+.DoctorsBodyAesthetix .block-media {
+  display: none !important;
+}
+
+.DoctorsBodyAesthetix .carousel-text {
+    padding: 0px;
+    padding-left: 0px;
+}
+.block-text .slick-slider {
+    margin-bottom: 30px;
+    margin-right: 0px;
+}
+.slickslider {
+    width: 100%;
+    background-image: url(../images/team/flower.png);
+    background-repeat: no-repeat;
+    background-position: 142px 70px;
+    background-size: 65%;
+}
+
+.slider .slide .child-element .desc {
+    display: block;
+    padding: 10px 10px;
+}
+.slider .slide .child-element {
+    height: 300px;
+    width: 410px;
+}
+.slide.slick-slide.slick-active .clientDescription .clientName::after {
+  position: absolute;
+    content: "";
+    border-bottom: 7px solid #dc583a;
+    width: 300px;
+    left: 52px;
+    top: 170px;
+}
+
+.slider {
+
+    margin: 0 42px;
+    text-align: center;
+    /* padding: 20px; */
+    color: white;
+}
+
+.slider .slide.slick-center .child-element{display: none !important;}
+
+.DescriptionContent {
+    width: 100%;
+margin-bottom: 25px;
+}
+.DocFullInfo {
+    font-size: 15px;
+}
+.readMoreButton {
+    width: 100%;
+}
+#menu-wrap {
+    margin-left: 268px;
+}
+
+#menu{    right: 0;
+    width: 280px;    background-color: #a22426;}
+#menu ul.dropdownmenu{    width: 245px;}
+#menu a {
+    color: #fff;
+}
+
+.meetTeam{    font-size: 1.5em;}
+.cosmetics-surgery .meetTeam {
+    color: #fff;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.footersoicalIcon ul {
+    list-style: none;
+    text-align: center;    padding-left: 0px;
+}
+
+.postFooter {text-align: center !important;}
+
+
+.BodyAesthetixContactBox li {
+    padding: 2px;
+}
+
+
+
+
+span.callUsContent small{    font-size: 13px;}
+span.callUsContent a{font-size: 12px;}
+
+.testimoinalBodyAesthetix .slick-dots{display: none !important;}
+
+span.footerData {
+    width: 209px;
+}
+.footerBookAppointment .appointmentbuttonSubmit{    padding: 6px 19px;}
+
+.surgeryImg{display: block;margin: 0 auto;}
+.SurgeryHeading{    display: block;
+    vertical-align: middle;
+    text-align: center;}
+
+.SurgeryWrapper{min-height: 400px;}
+
+.cosmetics-surgery {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+
+.social-media-links {
+    list-style: none;
+    text-align: center;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+
+.mobileviewNumber {
+    display: inline-block;
+    vertical-align: middle;
+}
+#menu-wrap {
+    margin-left: 210px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.navigationbar{padding:10px 0px; }
+
+.BodyAesthetixContactBox {
+    display: flex;
+    justify-content: space-around;
+}
+.aboutimg{display: none;}
+
+
+.mobileopen {
+    display: block;
+    width: 40%;
+    margin-right: 232px;
+}
+
+.timeFormat {
+    width: 98px;
+}
+
+.dateFormat {
+    width: 111px;
+    margin-right: 0px;
+}
+.timeimg {
+    background-position: 72px 6px;
+}
+
+.facility-heading::after {
+        left: 100px;
+}
+
+.facility {
+  
+    margin: 10px 0px;
+}
+.footerConstant::after {
+    top: 387px;
+}
+
+#file{    display: inline-block;
+    width: 235px;}
+.dateFormat {
+    width: 230px;
+    margin-right: 0px;
+}
+.dateimg,.timeimg{background-position: right;}
+
+.timeFormat {
+    width: 206px;
+}
+
+
+
+.od1 {
+    order: 2;
+}
+.od2 {
+    order: 1;
+}
+.secondpara .aboutdata {
+    margin-right: 0px;
+    margin-left: auto;
+    margin-top: 0;
+}
+
+.cosmeticFooter .appointmentForm {
+    margin-top: 0px;
+}
+
+}
+
+
+
+@media only screen and (min-device-width : 410px) and (max-device-width : 481px){
+#menu-wrap {
+    margin-left: 50px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.slider .slide .child-element {
+    height: 300px;
+    width: 380px;
+}
+
+.slide.slick-slide.slick-active .clientDescription .clientName::after {
+    left: 79px;
+}
+.dateFormat {
+    width: 177px;
+}
+
+.dateimg {
+    background-position: 138px 7px;
+}
+
+
+}
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 823px){
+.logo {
+    width: 100%;
+    padding: 37px 0px;
+}
+
+#menu-wrap {
+    margin-left: 0px;
+}
+
+.mobileviewsocial {
+    display: none;
+}
+
+.mobileviewNav{max-width: 100% !important;flex: 0 0 100%;}
+#menu a {
+    padding: 5px 6px;
+    font-size: 12px;
+    font-weight: 700;
+    
+}
+
+span.callUsContent small{    font-size: 13px;}
+span.callUsContent a{font-size: 12px;}
+
+.testimoinalBodyAesthetix .slick-dots{display: none !important;}
+
+span.footerData {
+    width: auto;
+}
+.BodyAesthetixContactBox li {
+    padding: 10px 0px;
+}
+.BodyAesthetixContactBox span.callUs{margin-right: 0px;}
+.margin1{    flex: 0 0 50%;
+    max-width: 50%;}
+.dateFormat {
+    display: inline-block;
+    width: 91px;
+    margin-right: 8px;
+}
+
+.dateimg {
+    background-position: 65px 7px;
+}
+.aboutdata {
+    background-image: url(../images/about/aboutBg.jpg);
+    padding: 21px 9px;
+    border-top: 6px solid #dc583a;
+    margin-right: -161px;
+    position: relative;
+    z-index: 9999;
+    margin-top: 0px;
+}
+
+.block-media .slick-slide{    float: right;}
+.readMoreButton {
+    width: 100%;
+}
+
+.block-text .slick-slider {
+    margin-bottom: 30px;
+    margin-right: 0px;
+}
+.slickslider {
+    width: 100%;
+    background-image: url(../images/team/flower.png);
+    background-repeat: no-repeat;
+    background-position: 142px 70px;
+    background-size: 65%;
+}
+
+.slider .slide .child-element .desc {
+    display: block;
+    padding: 10px 10px;
+}
+.slider .slide .child-element {
+    height: 300px;
+    width: 410px;    
+}
+.slide.slick-slide.slick-active .clientDescription .clientName::after {
+  position: absolute;
+    content: "";
+    border-bottom: 7px solid #dc583a;
+    width: 300px;
+    left: 52px;
+    top: 170px;
+}
+
+.slider {
+
+    margin: 0 122px;
+    text-align: center;
+    /* padding: 20px; */
+    color: white;
+}
+
+.slider .slide.slick-center .child-element{display: none !important;}
+
+.DescriptionContent {
+    width: 100%;
+margin-bottom: 25px;
+}
+.footerLogo {
+    width: 160px;
+    padding-bottom: 30px;
+}
+
+.MaleAesthetix, .FemaleAesthetix 
+{font-size: 17px;}
+.surgeryImg{display: block;margin: 0 auto;}
+.SurgeryHeading{    display: block;
+    vertical-align: middle;
+    text-align: center;}
+
+.SurgeryWrapper{min-height: 350px;}
+.cosmetics-surgery {
+    position: relative;
+    margin-bottom: 0px;
+}
+
+.facility-heading{font-size: 13px;}
+
+.facility-heading::after{left:85px;}
+.facility{margin:20px 0px}
+.faciltyContent{min-height: 129px;}
+
+.FlowerIMg::after {
+    position: absolute;
+    width: 25px;
+    background-image: url(../images/about/flowerbg.png);
+    background-size:contain;
+    width: 100%;
+     height: 100%; 
+    content: "";
+    background-repeat: no-repeat;
+    top: 160px;
+    left: 0px;
+    opacity: 0.8;
+}
+.footerConstant {
+    position: relative;
+    margin-bottom: 37px;
+}
+
+.footerBookAppointment .appointmentbuttonSubmit {
+    border: none;
+    background-color: #a22426;
+    color: #fff;
+    display: block;
+    text-align: center;
+    /* margin: 0 auto; */
+    padding: 6px 0px;
+    border-radius: 61px;
+    text-transform: uppercase;
+    margin-top: 11px;
+    margin: 0px;
+    margin-top: 25px;
+    font-size: 10px;
+}
+
+.aboutdata{margin-right: -26px;}
+
+
+.od1 {
+    order: 2;
+}
+.od2 {
+    order: 1;
+}
+.secondpara .aboutdata {
+    margin-right: 0px;
+    margin-left: auto;
+    margin-top: 0;
+}
+
+.cosmeticFooter .appointmentForm {
+    margin-top: 50px;
+}
+
+
+}
+
+@media only screen and (min-device-width : 700px) and (max-device-width : 767px){
+
+/* Styles */
+.logo {
+    width: 40%;
+    margin: 0 auto;
+}
+
+#menu-wrap {
+    margin-left: 0px;
+}
+ul#menu{
+    display: flex !important;
+    justify-content: space-around;
+}
+#menu a {
+    float: left;
+    padding: 3px 1px;
+    color: #a22426;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+}
+ .mobileviewsocial{display: none;}
+
+ .aboutdata{margin-right: 0px;}
+.ContactBodyAesthetix{padding: 0px 0px;padding-left: 25px;}
+.ContactBodyAesthetix li{margin-bottom: 10px;}
+#menu-trigger{display: inline-block;    margin-left: 80px;}
+.NavigationRow{
+    order: 2;
+}
+.rowSocialIcon{
+    order: 1;
+}
+
+.appointmentForm {
+    margin-top: 30px;
+}
+
+.box {
+    padding-left: 15px;
+}
+.appointmentHeading h4{font-size: 25px;}
+
+.BodyAesthetixContactBox {
+    display: flex;
+    justify-content: space-around;
+}
+
+.aboutimg{display: none;}
+
+.BodyAesthetixContactBox li {
+    padding: 10px;
+    text-align: center;
+}
+
+.BodyAesthetixAboutHeading {
+    padding: 80px 0px;
+    display: block;
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+.DoctorsBodyAesthetix .block-text{width: 100%;}
+.DoctorsBodyAesthetix .block-media {
+  display: none !important;
+}
+
+.DoctorsBodyAesthetix .carousel-text {
+    padding: 0px;
+    padding-left: 0px;
+}
+.block-text .slick-slider {
+    margin-bottom: 30px;
+    margin-right: 0px;
+}
+.slickslider {
+    width: 100%;
+    background-image: url(../images/team/flower.png);
+    background-repeat: no-repeat;
+    background-position: 142px 70px;
+    background-size: 65%;
+}
+
+.slider .slide .child-element .desc {
+    display: block;
+    padding: 10px 10px;
+}
+.slider .slide .child-element {
+    height: 300px;
+    width: 410px;
+}
+.slide.slick-slide.slick-active .clientDescription .clientName::after {
+  position: absolute;
+    content: "";
+    border-bottom: 7px solid #dc583a;
+    width: 300px;
+    left: 52px;
+    top: 170px;
+}
+
+.slider {
+
+    margin: 0 42px;
+    text-align: center;
+    /* padding: 20px; */
+    color: white;
+}
+
+.slider .slide.slick-center .child-element{display: none !important;}
+
+.DescriptionContent {
+    width: 100%;
+margin-bottom: 25px;
+}
+.DocFullInfo {
+    font-size: 15px;
+}
+.readMoreButton {
+    width: 100%;
+}
+
+.cosmetics-surgery {
+    position: relative;
+    margin-bottom: 0px;
+}
+
+span.footerData {
+    display: inline-block;
+    /* width: 86%; */
+    color: #fff;
+    font-size: 14px;
+    width: auto;
+}
+
+.facility-heading::after {
+        left: 100px;
+}
+
+.facility {
+  
+    margin: 10px 0px;
+}
+
+.BodyAesthetixContactBox {
+    display: flex;
+    justify-content: space-around;
+}
+.BodyAesthetixContactBox li {
+    padding: 2px;
+    text-align: left;
+}
+.BodyAesthetixContactBox span.callUs{    margin-right: 0px;}
+
+.mobileopen {
+    display: block;
+    width: 40%;
+    margin-right: 232px;
+}
+
+span.footericon {
+    width: auto;
+    font-size: 13px;
+}
+
+.footerConstant::after {
+    top: 392px;
+}
+
+#file{    display: inline-block;
+    width: 235px;}
+.dateFormat {
+    width: 230px;
+    margin-right: 0px;
+}
+.dateimg,.timeimg{background-position: right;}
+
+.timeFormat {
+    width: 206px;
+}
+.footerBookAppointment .appointmentbuttonSubmit{padding: 5px;}
+
+.od1 {
+    order: 2;
+}
+.od2 {
+    order: 1;
+}
+.secondpara .aboutdata {
+    margin-right: 0px;
+    margin-left: auto;
+    margin-top: 0;
+}
+
+.cosmeticFooter .appointmentForm {
+    margin-top: 10px;
+}
+
+
+}
+

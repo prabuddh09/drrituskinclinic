@@ -1,0 +1,253 @@
+
+
+
+.input-effect{position: relative;}
+
+.effect-20
+{border: 1px solid #ccc; padding: 7px 14px; transition: 0.4s; background: transparent;}
+
+.effect-20 ~ .focus-border:before,
+.effect-20 ~ .focus-border:after{content: ""; position: absolute; top: 0; left: 0; width: 0; height: 2px; background-color: #3399FF; transition: 0.3s;}
+.effect-20 ~ .focus-border:after{top: auto; bottom: 0; left: auto; right: 0;}
+.effect-20 ~ .focus-border i:before,
+.effect-20 ~ .focus-border i:after{content: ""; position: absolute; top: 0; left: 0; width: 2px; height: 0; background-color: #3399FF; transition: 0.4s;}
+.effect-20 ~ .focus-border i:after{left: auto; right: 0; top: auto; bottom: 0;}
+.effect-20:focus ~ .focus-border:before,
+.effect-20:focus ~ .focus-border:after,
+.has-content.effect-20 ~ .focus-border:before,
+.has-content.effect-20 ~ .focus-border:after{width: 100%; transition: 0.3s;}
+.effect-20:focus ~ .focus-border i:before,
+.effect-20:focus ~ .focus-border i:after,
+.has-content.effect-20 ~ .focus-border i:before,
+.has-content.effect-20 ~ .focus-border i:after{height: 100%; transition: 0.4s;}
+.effect-20 ~ label{position: absolute; left: 14px; width: 100%; top: 10px; color: #aaa; transition: 0.3s; z-index: -1; letter-spacing: 0.5px;}
+.effect-20:focus ~ label, .has-content.effect-20 ~ label{top: -18px; left: 0; font-size: 12px; color: #3399FF; transition: 0.3s;}
+
+
+
+.testimonials {
+  position: relative;
+  padding-top: 80px;
+}
+
+
+
+
+
+.customeSlider .owl-carousel .owl-nav [class*='owl-'] {
+  transition: all .3s ease;
+}
+
+.customeSlider .owl-carousel .owl-nav [class*='owl-'].disabled:hover {
+  background-color: #D6D6D6;
+}
+
+.customeSlider .owl-carousel {
+  position: relative;
+}
+
+.customeSlider .owl-carousel .owl-next,
+.customeSlider .owl-carousel .owl-prev {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  top: 30%;
+  font-size: 20px;
+  color: #a22426;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.customeSlider .owl-carousel .owl-prev {
+  left: -70px;
+}
+
+.customeSlider .owl-carousel .owl-next {
+  right: -70px;
+}
+
+ .procedureContainer {
+    border: 1px solid #ccc;
+    border-bottom: 7px solid #dedede;
+    padding: 0px 10px;    margin-top: 45px;
+    position: relative;transition: all 0.2s linear;
+}
+.surgeryDescription ,.ProcessDescription p {
+    color: #333;
+    font-size: 13px;
+}
+
+.CosmeticProcessIcon {
+    display: inline-block;
+    background-color: #de583a;
+    height: 60px;
+    width: 60px;
+    border-radius: 55px;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: -36px;
+    margin-bottom: 15px;
+}
+
+    .CosmeticProcessIcon img{
+   /* width: 35px !important;*/
+    margin: 0 auto;
+  /*  padding-top: 12px;*/
+}
+
+.procedureContainer{    text-align: center;
+    min-height: 337px;}
+
+.SurgeryHeading h4,.ProcessDescription h4 {
+    color: #a22426;
+    font-size: 18px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 600;
+    margin: 12px 0px;
+}
+
+
+/*form styleing*/
+
+/* form starting stylings ------------------------------- */
+.bodyaesthetixForm .group        { 
+  position:relative; margin-bottom: 10px;
+}
+.bodyaesthetixForm input {
+    border: none;
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 4px 6px;
+    width: 100%;
+}
+.bodyaesthetixForm input:focus     { outline:none; }
+
+/* LABEL ======================================= */
+.bodyaesthetixForm label          {
+  color:#999; 
+  font-size:14px;
+  font-weight:normal;
+  position:absolute;
+  pointer-events:none;
+  left:5px;
+  top:5px;
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
+
+/* active state */
+.bodyaesthetixForm input:focus ~ label, .bodyaesthetixForm input:valid ~ label    {
+  top:-20px;
+  font-size:14px;
+  color:#fff;
+}
+
+/* BOTTOM BARS ================================= */
+.bodyaesthetixForm .bar  { position:relative; display:block; }
+.bodyaesthetixForm .bar:before, .bodyaesthetixForm .bar:after   {
+  content:'';
+  height:2px; 
+  width:0;
+  bottom:0px; 
+  position:absolute;
+  background:#a22426; 
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
+.bodyaesthetixForm .bar:before {
+  left:50%;
+}
+.bodyaesthetixForm .bar:after {
+  right:50%; 
+}
+
+/* active state */
+.bodyaesthetixForm input:focus ~ .bar:before, .bodyaesthetixForm input:focus ~ .bar:after {
+  width:50%;
+}
+
+/* HIGHLIGHTER ================================== */
+.bodyaesthetixForm .highlight {
+  position:absolute;
+  height:60%; 
+  width:100px; 
+  top:25%; 
+  left:0;
+  pointer-events:none;
+  opacity:0.5;
+}
+
+/* active state */
+.bodyaesthetixForm input:focus ~ .highlight {
+  -webkit-animation:inputHighlighter 0.3s ease;
+  -moz-animation:inputHighlighter 0.3s ease;
+  animation:inputHighlighter 0.3s ease;
+}
+
+/* ANIMATIONS ================ */
+@-webkit-keyframes inputHighlighter {
+  from { background:#5264AE; }
+  to  { width:0; background:transparent; }
+}
+@-moz-keyframes inputHighlighter {
+  from { background:#5264AE; }
+  to  { width:0; background:transparent; }
+}
+@keyframes inputHighlighter {
+  from { background:#5264AE; }
+  to  { width:0; background:transparent; }
+}
+
+.bodyaesthetixForm .input-group{    position: relative;
+    top: -3px;}
+
+    [data-toggle="collapse"] .fa:before {  
+  content: "\f139";
+}
+
+[data-toggle="collapse"].collapsed .fa:before {
+  content: "\f13a";
+}
+.faqs {
+    background-image: linear-gradient(to right, #f8e3e3, #f9e7e8, #fbeced, #fcf0f2, #fdf5f6);
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.faqs .card {
+    margin-bottom: 12px;
+    border: none;
+    -moz-box-shadow: 10px 10px 5px #888;
+    -webkit-box-shadow: 10px 10px 5px #888;
+    box-shadow: 1px 2px 5px #d0d0d0;
+}
+
+.faqs .btn-link{color: #dc583a;}
+
+.faqs .btn-link:hover{
+    color: #a22426;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.faqs .btn-link:hover,.faqs .btn-link.focus, .faqs .btn-link:focus{ text-decoration: none !important;}
+
+
+
+.faqs  .card-header {
+    padding: 7px;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,.03);
+    border-bottom: 0px;
+}
+
+.faqconatiner .welcome::before{left: 43%;bottom: -14px;}
+
+
+ .faqs .collapsed{text-align: left;}
+
+.btn{white-space: normal;}
